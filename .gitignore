@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+
+# compleasm / BUSCO lineage caches and run outputs (large; never commit)
+mb_downloads/
+*_compleasm/
+*_busco/
+
+# Parity-harness scratch
+tests/parity/mb_downloads/
+abaqs-parity/
+
+# OS / editor
+.DS_Store
+*.swp
